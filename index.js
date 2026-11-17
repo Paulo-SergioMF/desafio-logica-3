@@ -23,7 +23,7 @@ class Heroi {
         arma = "shuriken";
         break;
       default:
-        arma = "atacou";
+        arma = "nada";
     }
 
     console.log(`O ${this.tipo} de nome ${this.nome} de ${this.idade} anos, atacou usando ${arma}`);
